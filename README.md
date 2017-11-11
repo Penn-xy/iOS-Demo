@@ -25,38 +25,40 @@
 
 ### Core ML
 > 效果预览
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fles6gr8orj30ku112t9h.jpg)
+<img src="https://ws2.sinaimg.cn/large/006tNc79ly1fles6gr8orj30ku112t9h.jpg" width="200">
 
 ### Vision
 > 效果预览
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fles8qptgkj30ku112q4f.jpg)
-![](https://ws2.sinaimg.cn/large/006tNc79ly1fles9bteh5j30ku112jtc.jpg)
-![](https://ws3.sinaimg.cn/large/006tNc79ly1fles9sb6h4j30ku11241g.jpg)
+<img src="https://ws3.sinaimg.cn/large/006tNc79ly1fles8qptgkj30ku112q4f.jpg" width="200">
+<img src="https://ws2.sinaimg.cn/large/006tNc79ly1fles9bteh5j30ku112jtc.jpg" width="200">
+<img src="https://ws3.sinaimg.cn/large/006tNc79ly1fles9sb6h4j30ku11241g.jpg" width="200">
 
 ### ARKit
 > 效果预览
-![](https://ws3.sinaimg.cn/large/006tNc79ly1flesa53dngj30ku112wgd.jpg)
+<img src="https://ws3.sinaimg.cn/large/006tNc79ly1flesa53dngj30ku112wgd.jpg" width="200">
 
 ### Drag and Drop
 > 效果预览
-![](https://ws1.sinaimg.cn/large/006tNc79ly1flesapf7j5j308w0ftmxh.jpg)
+<img src="https://ws1.sinaimg.cn/large/006tNc79ly1flesrhny8pg308w0ft7wj.gif" width="200">
 
 ### Core NFC
 > 效果预览
-![](https://ws3.sinaimg.cn/large/006tNc79ly1flesb9obvjj30ku112gm4.jpg) ![](https://ws1.sinaimg.cn/large/006tNc79ly1flesbgay6bj30ku112jrx.jpg)
+> <img src="https://ws3.sinaimg.cn/large/006tNc79ly1flesb9obvjj30ku112gm4.jpg" width="200">
+> <img src="https://ws1.sinaimg.cn/large/006tNc79ly1flesbgay6bj30ku112jrx.jpg" width="200">
+
 ### MapKit
 > 效果预览
-![](https://ws2.sinaimg.cn/large/006tNc79ly1flesf8gy2gg30ku112u0y.gif)
+> <img src="https://ws2.sinaimg.cn/large/006tNc79ly1flesf8gy2gg30ku112u0y.gif" width="200">
 
 ### IdentityLookup
 > 效果预览
-![](https://ws2.sinaimg.cn/large/006tNc79ly1flesg3zalqj30ku112t9p.jpg)
+> <img src="https://ws2.sinaimg.cn/large/006tNc79ly1flesg3zalqj30ku112t9p.jpg" width="200">
 
 ### DeviceCheck
 
 ### SpriteKit
 > 效果预览
-![](https://ws3.sinaimg.cn/large/006tNc79ly1flesgukp95g30ku112ql5.gif)
+> <img src="https://ws3.sinaimg.cn/large/006tNc79ly1flesgukp95g30ku112ql5.gif" width="200">
 
 ---
 ## iOS10部分
@@ -121,7 +123,9 @@ CONTACT: [email](xu_9308@163.com)
 
 ## 捐赠
 
-![alipay](https://github.com/xudegithub/iOS-Demo/blob/master/WechatIMG4.jpeg "支付宝")
+__想请我喝饮料可以扫码哦~__
+
+<img src="https://github.com/xudegithub/iOS-Demo/blob/master/WechatIMG4.jpeg" width="200">
 
 
 
