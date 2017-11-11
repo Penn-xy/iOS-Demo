@@ -60,9 +60,13 @@
 ## iOS系统的介绍
 
 [iOS的定义](https://baike.baidu.com/item/iOS/45705?fr=aladdin)
+
 [iOS11的介绍](https://baike.baidu.com/item/iOS%2011?fromtitle=ios11&fromid=20842297)
+
 [iOS10的介绍](https://baike.baidu.com/item/iOS%2010?fromtitle=iOS10&fromid=18820085)
+
 [iOS9的介绍](https://baike.baidu.com/item/iOS%209?fromtitle=ios9&fromid=17202076)
+
 [iOS8的介绍](https://baike.baidu.com/item/ios%208?fromtitle=iOS8&fromid=4053079)
 
 ---
@@ -70,11 +74,17 @@
 ## 灵感与引用
 
 <https://github.com/artemnovichkov/iOS-11-by-Examples>
+
 <https://github.com/shinobicontrols/iOS10-day-by-day>
+
 <https://github.com/shu223/iOS-10-Sampler>
+
 <https://github.com/shinobicontrols/iOS9-day-by-day>
+
 <https://github.com/shu223/iOS-9-Sampler>
+
 <https://github.com/shinobicontrols/iOS8-day-by-day>
+
 <https://github.com/shu223/iOS8-Sampler>
 
 本人在浏览GitHub的过程当中，发现几乎每一代iOS系统推出时，都会有热衷开源的同行在短时间发布一些新系统的feature例子，特此收集了一些认为优秀的开源项目，做一个整理，顺序为iOS11至iOS8，若新系统是对老版本feature的改进，旧版本feature将不再提。水平有限，若有谬误，欢迎指出！
