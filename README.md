@@ -38,7 +38,7 @@
 
 ### DeviceCheck
 
-### SpirteKit
+### SpriteKit
 
 
 
