@@ -103,7 +103,7 @@ CONTACT: [email](xu_9308@163.com)
 
 ## 捐赠
 
-![alipay](https://github.com/xudegithub/iOS-Demo/blob/master/WechatIMG4.jpeg?style=flat "支付宝" width=400)
+![alipay](https://github.com/xudegithub/iOS-Demo/blob/master/WechatIMG4.jpeg?style=flat "支付宝")
 
 
 
