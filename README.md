@@ -118,7 +118,7 @@ __PennXu__
 
 iOS开发工程师，坐标上海
 
-CONTACT: [email](xu_9308@163.com) 
+CONTACT: [email](mailto:xu_9308@163.com) 
 
 ---
 
