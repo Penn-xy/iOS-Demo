@@ -12,6 +12,29 @@
 		180C855B1FB780EB00C6D4E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C85591FB780EB00C6D4E0 /* Main.storyboard */; };
 		180C855D1FB780EB00C6D4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180C855C1FB780EB00C6D4E0 /* Assets.xcassets */; };
 		180C85601FB780EB00C6D4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C855E1FB780EB00C6D4E0 /* LaunchScreen.storyboard */; };
+		180C85C21FB934E000C6D4E0 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85C11FB934E000C6D4E0 /* DataSource.swift */; };
+		180C85C81FB9390500C6D4E0 /* CoreML.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C85C71FB9390500C6D4E0 /* CoreML.storyboard */; };
+		180C85CA1FB9392F00C6D4E0 /* CoreMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85C91FB9392F00C6D4E0 /* CoreMLViewController.swift */; };
+		180C85CC1FB93B1500C6D4E0 /* UIImage+CVPixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85CB1FB93B1400C6D4E0 /* UIImage+CVPixelBuffer.swift */; };
+		180C85CE1FB94FEE00C6D4E0 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 180C85CD1FB94FEE00C6D4E0 /* Inceptionv3.mlmodel */; };
+		180C85D11FB9530300C6D4E0 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85D01FB9530300C6D4E0 /* UIViewController+Alert.swift */; };
+		180C85D71FB96DED00C6D4E0 /* Vision.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C85D61FB96DED00C6D4E0 /* Vision.storyboard */; };
+		180C85D91FB96E1200C6D4E0 /* VisionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85D81FB96E1200C6D4E0 /* VisionTableViewController.swift */; };
+		180C85DB1FB96E8000C6D4E0 /* ObjectTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85DA1FB96E8000C6D4E0 /* ObjectTrackingViewController.swift */; };
+		180C85DD1FB96E9600C6D4E0 /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85DC1FB96E9600C6D4E0 /* FaceDetectionViewController.swift */; };
+		180C85DF1FB9726400C6D4E0 /* LandmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85DE1FB9726400C6D4E0 /* LandmarksViewController.swift */; };
+		180C85E11FB973A000C6D4E0 /* Fision+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85E01FB973A000C6D4E0 /* Fision+Extensions.swift */; };
+		180C85E31FB973D600C6D4E0 /* LandmarksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85E21FB973D600C6D4E0 /* LandmarksService.swift */; };
+		180C85E51FB973F700C6D4E0 /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85E41FB973F700C6D4E0 /* Face.swift */; };
+		180C85E71FB9741900C6D4E0 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85E61FB9741900C6D4E0 /* SwitchTableViewCell.swift */; };
+		180C85EF1FB9827600C6D4E0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 180C85EE1FB9827600C6D4E0 /* art.scnassets */; };
+		180C85F11FB99CC700C6D4E0 /* ARKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85F01FB99CC700C6D4E0 /* ARKitViewController.swift */; };
+		180C85F31FB99CD300C6D4E0 /* ARKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C85F21FB99CD300C6D4E0 /* ARKit.storyboard */; };
+		180C85F51FB99EEF00C6D4E0 /* UserDefaults+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85F41FB99EEF00C6D4E0 /* UserDefaults+Storage.swift */; };
+		180C85F71FB9A2C200C6D4E0 /* DragAndDrop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180C85F61FB9A2C200C6D4E0 /* DragAndDrop.storyboard */; };
+		180C85F91FB9A2F200C6D4E0 /* DragAndDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85F81FB9A2F200C6D4E0 /* DragAndDropViewController.swift */; };
+		180C85FB1FB9A50500C6D4E0 /* ImagesViewControllerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85FA1FB9A50500C6D4E0 /* ImagesViewControllerController.swift */; };
+		180C85FD1FB9A54100C6D4E0 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85FC1FB9A54100C6D4E0 /* ImageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +45,29 @@
 		180C855C1FB780EB00C6D4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180C855F1FB780EB00C6D4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180C85611FB780EB00C6D4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180C85C11FB934E000C6D4E0 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		180C85C71FB9390500C6D4E0 /* CoreML.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CoreML.storyboard; sourceTree = "<group>"; };
+		180C85C91FB9392F00C6D4E0 /* CoreMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLViewController.swift; sourceTree = "<group>"; };
+		180C85CB1FB93B1400C6D4E0 /* UIImage+CVPixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CVPixelBuffer.swift"; sourceTree = "<group>"; };
+		180C85CD1FB94FEE00C6D4E0 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		180C85D01FB9530300C6D4E0 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		180C85D61FB96DED00C6D4E0 /* Vision.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vision.storyboard; sourceTree = "<group>"; };
+		180C85D81FB96E1200C6D4E0 /* VisionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionTableViewController.swift; sourceTree = "<group>"; };
+		180C85DA1FB96E8000C6D4E0 /* ObjectTrackingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTrackingViewController.swift; sourceTree = "<group>"; };
+		180C85DC1FB96E9600C6D4E0 /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
+		180C85DE1FB9726400C6D4E0 /* LandmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksViewController.swift; sourceTree = "<group>"; };
+		180C85E01FB973A000C6D4E0 /* Fision+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fision+Extensions.swift"; sourceTree = "<group>"; };
+		180C85E21FB973D600C6D4E0 /* LandmarksService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksService.swift; sourceTree = "<group>"; };
+		180C85E41FB973F700C6D4E0 /* Face.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
+		180C85E61FB9741900C6D4E0 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		180C85EE1FB9827600C6D4E0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		180C85F01FB99CC700C6D4E0 /* ARKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitViewController.swift; sourceTree = "<group>"; };
+		180C85F21FB99CD300C6D4E0 /* ARKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ARKit.storyboard; sourceTree = "<group>"; };
+		180C85F41FB99EEF00C6D4E0 /* UserDefaults+Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Storage.swift"; sourceTree = "<group>"; };
+		180C85F61FB9A2C200C6D4E0 /* DragAndDrop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DragAndDrop.storyboard; sourceTree = "<group>"; };
+		180C85F81FB9A2F200C6D4E0 /* DragAndDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewController.swift; sourceTree = "<group>"; };
+		180C85FA1FB9A50500C6D4E0 /* ImagesViewControllerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewControllerController.swift; sourceTree = "<group>"; };
+		180C85FC1FB9A54100C6D4E0 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +100,125 @@
 		180C85541FB780EB00C6D4E0 /* iOS11Showtime */ = {
 			isa = PBXGroup;
 			children = (
+				180C85EA1FB9826900C6D4E0 /* ARKit */,
+				180C85EC1FB9826900C6D4E0 /* Drag-n-Drop */,
+				180C85EB1FB9826900C6D4E0 /* IdentityLookup */,
+				180C85E91FB9826900C6D4E0 /* MapKit */,
+				180C85ED1FB9826900C6D4E0 /* SpriteKit */,
+				180C85D21FB96DB200C6D4E0 /* Vision */,
+				180C85CF1FB952BC00C6D4E0 /* Common */,
+				180C85C61FB938EB00C6D4E0 /* CoreML */,
 				180C85551FB780EB00C6D4E0 /* AppDelegate.swift */,
 				180C85571FB780EB00C6D4E0 /* ViewController.swift */,
+				180C85C11FB934E000C6D4E0 /* DataSource.swift */,
 				180C85591FB780EB00C6D4E0 /* Main.storyboard */,
 				180C855C1FB780EB00C6D4E0 /* Assets.xcassets */,
 				180C855E1FB780EB00C6D4E0 /* LaunchScreen.storyboard */,
 				180C85611FB780EB00C6D4E0 /* Info.plist */,
 			);
 			path = iOS11Showtime;
+			sourceTree = "<group>";
+		};
+		180C85C61FB938EB00C6D4E0 /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				180C85CD1FB94FEE00C6D4E0 /* Inceptionv3.mlmodel */,
+				180C85C71FB9390500C6D4E0 /* CoreML.storyboard */,
+				180C85C91FB9392F00C6D4E0 /* CoreMLViewController.swift */,
+				180C85CB1FB93B1400C6D4E0 /* UIImage+CVPixelBuffer.swift */,
+			);
+			path = CoreML;
+			sourceTree = "<group>";
+		};
+		180C85CF1FB952BC00C6D4E0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				180C85D01FB9530300C6D4E0 /* UIViewController+Alert.swift */,
+				180C85F41FB99EEF00C6D4E0 /* UserDefaults+Storage.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		180C85D21FB96DB200C6D4E0 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				180C85D31FB96DB200C6D4E0 /* FaceDetection */,
+				180C85D41FB96DB200C6D4E0 /* Landmarks */,
+				180C85D51FB96DB200C6D4E0 /* ObjectTracking */,
+				180C85D61FB96DED00C6D4E0 /* Vision.storyboard */,
+				180C85D81FB96E1200C6D4E0 /* VisionTableViewController.swift */,
+			);
+			path = Vision;
+			sourceTree = "<group>";
+		};
+		180C85D31FB96DB200C6D4E0 /* FaceDetection */ = {
+			isa = PBXGroup;
+			children = (
+				180C85DC1FB96E9600C6D4E0 /* FaceDetectionViewController.swift */,
+			);
+			path = FaceDetection;
+			sourceTree = "<group>";
+		};
+		180C85D41FB96DB200C6D4E0 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				180C85DE1FB9726400C6D4E0 /* LandmarksViewController.swift */,
+				180C85E01FB973A000C6D4E0 /* Fision+Extensions.swift */,
+				180C85E21FB973D600C6D4E0 /* LandmarksService.swift */,
+				180C85E41FB973F700C6D4E0 /* Face.swift */,
+				180C85E61FB9741900C6D4E0 /* SwitchTableViewCell.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		180C85D51FB96DB200C6D4E0 /* ObjectTracking */ = {
+			isa = PBXGroup;
+			children = (
+				180C85DA1FB96E8000C6D4E0 /* ObjectTrackingViewController.swift */,
+			);
+			path = ObjectTracking;
+			sourceTree = "<group>";
+		};
+		180C85E91FB9826900C6D4E0 /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
+		180C85EA1FB9826900C6D4E0 /* ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				180C85EE1FB9827600C6D4E0 /* art.scnassets */,
+				180C85F01FB99CC700C6D4E0 /* ARKitViewController.swift */,
+				180C85F21FB99CD300C6D4E0 /* ARKit.storyboard */,
+			);
+			path = ARKit;
+			sourceTree = "<group>";
+		};
+		180C85EB1FB9826900C6D4E0 /* IdentityLookup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IdentityLookup;
+			sourceTree = "<group>";
+		};
+		180C85EC1FB9826900C6D4E0 /* Drag-n-Drop */ = {
+			isa = PBXGroup;
+			children = (
+				180C85F61FB9A2C200C6D4E0 /* DragAndDrop.storyboard */,
+				180C85F81FB9A2F200C6D4E0 /* DragAndDropViewController.swift */,
+				180C85FA1FB9A50500C6D4E0 /* ImagesViewControllerController.swift */,
+				180C85FC1FB9A54100C6D4E0 /* ImageTableViewCell.swift */,
+			);
+			path = "Drag-n-Drop";
+			sourceTree = "<group>";
+		};
+		180C85ED1FB9826900C6D4E0 /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SpriteKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +281,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				180C85601FB780EB00C6D4E0 /* LaunchScreen.storyboard in Resources */,
+				180C85EF1FB9827600C6D4E0 /* art.scnassets in Resources */,
 				180C855D1FB780EB00C6D4E0 /* Assets.xcassets in Resources */,
+				180C85F71FB9A2C200C6D4E0 /* DragAndDrop.storyboard in Resources */,
+				180C85C81FB9390500C6D4E0 /* CoreML.storyboard in Resources */,
 				180C855B1FB780EB00C6D4E0 /* Main.storyboard in Resources */,
+				180C85D71FB96DED00C6D4E0 /* Vision.storyboard in Resources */,
+				180C85F31FB99CD300C6D4E0 /* ARKit.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +298,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180C85E51FB973F700C6D4E0 /* Face.swift in Sources */,
+				180C85C21FB934E000C6D4E0 /* DataSource.swift in Sources */,
+				180C85E71FB9741900C6D4E0 /* SwitchTableViewCell.swift in Sources */,
+				180C85FB1FB9A50500C6D4E0 /* ImagesViewControllerController.swift in Sources */,
+				180C85D91FB96E1200C6D4E0 /* VisionTableViewController.swift in Sources */,
+				180C85DB1FB96E8000C6D4E0 /* ObjectTrackingViewController.swift in Sources */,
+				180C85F51FB99EEF00C6D4E0 /* UserDefaults+Storage.swift in Sources */,
+				180C85CE1FB94FEE00C6D4E0 /* Inceptionv3.mlmodel in Sources */,
+				180C85DF1FB9726400C6D4E0 /* LandmarksViewController.swift in Sources */,
 				180C85581FB780EB00C6D4E0 /* ViewController.swift in Sources */,
+				180C85F91FB9A2F200C6D4E0 /* DragAndDropViewController.swift in Sources */,
+				180C85CC1FB93B1500C6D4E0 /* UIImage+CVPixelBuffer.swift in Sources */,
+				180C85E31FB973D600C6D4E0 /* LandmarksService.swift in Sources */,
+				180C85CA1FB9392F00C6D4E0 /* CoreMLViewController.swift in Sources */,
 				180C85561FB780EB00C6D4E0 /* AppDelegate.swift in Sources */,
+				180C85E11FB973A000C6D4E0 /* Fision+Extensions.swift in Sources */,
+				180C85D11FB9530300C6D4E0 /* UIViewController+Alert.swift in Sources */,
+				180C85FD1FB9A54100C6D4E0 /* ImageTableViewCell.swift in Sources */,
+				180C85F11FB99CC700C6D4E0 /* ARKitViewController.swift in Sources */,
+				180C85DD1FB96E9600C6D4E0 /* FaceDetectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +455,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C7UL4AYA3;
 				INFOPLIST_FILE = iOS11Showtime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = penn.iOS11Showtime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.penn.iOS11Showtime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +471,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C7UL4AYA3;
 				INFOPLIST_FILE = iOS11Showtime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = penn.iOS11Showtime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.penn.iOS11Showtime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
