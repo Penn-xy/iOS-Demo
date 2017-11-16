@@ -39,7 +39,51 @@
 		181B1EBD1FBB173F008EF900 /* EmojiAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B1EBC1FBB173F008EF900 /* EmojiAnnotation.swift */; };
 		181B1EBF1FBB175B008EF900 /* MarkerAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B1EBE1FBB175B008EF900 /* MarkerAnnotationView.swift */; };
 		181B1EC11FBB17BE008EF900 /* MapKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B1EC01FBB17BE008EF900 /* MapKit.storyboard */; };
+		181B1EC31FBBEBEE008EF900 /* IdentityLookupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B1EC21FBBEBEE008EF900 /* IdentityLookupViewController.swift */; };
+		181B1EC51FBBEBFA008EF900 /* IdentityLookup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B1EC41FBBEBFA008EF900 /* IdentityLookup.storyboard */; };
+		181B1EC91FBBEF79008EF900 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 181B1EC81FBBEF79008EF900 /* Scene.sks */; };
+		181B1ECB1FBBEF8A008EF900 /* SpriteKit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B1ECA1FBBEF8A008EF900 /* SpriteKit.storyboard */; };
+		181B1ECD1FBBEFA8008EF900 /* SpriteKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B1ECC1FBBEFA8008EF900 /* SpriteKitViewController.swift */; };
+		181B1ED51FBC1255008EF900 /* MessageFilterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B1ED41FBC1255008EF900 /* MessageFilterExtension.swift */; };
+		181B1ED91FBC1255008EF900 /* MessagesFilter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 181B1ED21FBC1255008EF900 /* MessagesFilter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		181B1EDF1FBC16BE008EF900 /* UserDefaults+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85F41FB99EEF00C6D4E0 /* UserDefaults+Storage.swift */; };
+		181B1EE71FBC245E008EF900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B1EE61FBC245E008EF900 /* AppDelegate.swift */; };
+		181B1EE91FBC245E008EF900 /* CoreNFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B1EE81FBC245E008EF900 /* CoreNFCViewController.swift */; };
+		181B1EEC1FBC245E008EF900 /* CoreNFC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B1EEA1FBC245E008EF900 /* CoreNFC.storyboard */; };
+		181B1EEE1FBC245E008EF900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181B1EED1FBC245E008EF900 /* Assets.xcassets */; };
+		181B1EF11FBC245E008EF900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B1EEF1FBC245E008EF900 /* LaunchScreen.storyboard */; };
+		181B1EF71FBC2513008EF900 /* PayloadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B1EF61FBC2513008EF900 /* PayloadTableViewCell.swift */; };
+		181B1EF81FBC25A2008EF900 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180C85D01FB9530300C6D4E0 /* UIViewController+Alert.swift */; };
+		181B1F011FBC34A4008EF900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B1F001FBC34A4008EF900 /* AppDelegate.swift */; };
+		181B1F061FBC34A4008EF900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B1F041FBC34A4008EF900 /* Main.storyboard */; };
+		181B1F081FBC34A4008EF900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181B1F071FBC34A4008EF900 /* Assets.xcassets */; };
+		181B1F0B1FBC34A4008EF900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B1F091FBC34A4008EF900 /* LaunchScreen.storyboard */; };
+		181B1F111FBC34D1008EF900 /* DeviceCheckingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181B1F101FBC34D1008EF900 /* DeviceCheckingViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181B1ED71FBC1255008EF900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180C854A1FB780EB00C6D4E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181B1ED11FBC1255008EF900;
+			remoteInfo = MessagesFilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		181B1EDD1FBC1255008EF900 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				181B1ED91FBC1255008EF900 /* MessagesFilter.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		180C85521FB780EB00C6D4E0 /* iOS11Showtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS11Showtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,10 +120,57 @@
 		181B1EBC1FBB173F008EF900 /* EmojiAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiAnnotation.swift; sourceTree = "<group>"; };
 		181B1EBE1FBB175B008EF900 /* MarkerAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerAnnotationView.swift; sourceTree = "<group>"; };
 		181B1EC01FBB17BE008EF900 /* MapKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapKit.storyboard; sourceTree = "<group>"; };
+		181B1EC21FBBEBEE008EF900 /* IdentityLookupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityLookupViewController.swift; sourceTree = "<group>"; };
+		181B1EC41FBBEBFA008EF900 /* IdentityLookup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IdentityLookup.storyboard; sourceTree = "<group>"; };
+		181B1EC71FBBEE4D008EF900 /* iOS11Showtime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS11Showtime.entitlements; sourceTree = "<group>"; };
+		181B1EC81FBBEF79008EF900 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		181B1ECA1FBBEF8A008EF900 /* SpriteKit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpriteKit.storyboard; sourceTree = "<group>"; };
+		181B1ECC1FBBEFA8008EF900 /* SpriteKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitViewController.swift; sourceTree = "<group>"; };
+		181B1ED21FBC1255008EF900 /* MessagesFilter.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesFilter.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B1ED41FBC1255008EF900 /* MessageFilterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFilterExtension.swift; sourceTree = "<group>"; };
+		181B1ED61FBC1255008EF900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181B1EDE1FBC147F008EF900 /* MessagesFilter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MessagesFilter.entitlements; sourceTree = "<group>"; };
+		181B1EE41FBC245E008EF900 /* Core NFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core NFC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B1EE61FBC245E008EF900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		181B1EE81FBC245E008EF900 /* CoreNFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreNFCViewController.swift; sourceTree = "<group>"; };
+		181B1EEB1FBC245E008EF900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CoreNFC.storyboard; sourceTree = "<group>"; };
+		181B1EED1FBC245E008EF900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181B1EF01FBC245E008EF900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181B1EF21FBC245E008EF900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181B1EF61FBC2513008EF900 /* PayloadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayloadTableViewCell.swift; sourceTree = "<group>"; };
+		181B1EF91FBC27A9008EF900 /* Core NFC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Core NFC.entitlements"; sourceTree = "<group>"; };
+		181B1EFE1FBC34A4008EF900 /* DeviceChecking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceChecking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B1F001FBC34A4008EF900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		181B1F051FBC34A4008EF900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181B1F071FBC34A4008EF900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181B1F0A1FBC34A4008EF900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181B1F0C1FBC34A4008EF900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181B1F101FBC34D1008EF900 /* DeviceCheckingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCheckingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		180C854F1FB780EB00C6D4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B1ECF1FBC1255008EF900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B1EE11FBC245E008EF900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B1EFB1FBC34A4008EF900 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,6 +184,9 @@
 			isa = PBXGroup;
 			children = (
 				180C85541FB780EB00C6D4E0 /* iOS11Showtime */,
+				181B1ED31FBC1255008EF900 /* MessagesFilter */,
+				181B1EE51FBC245E008EF900 /* Core NFC */,
+				181B1EFF1FBC34A4008EF900 /* DeviceChecking */,
 				180C85531FB780EB00C6D4E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +195,9 @@
 			isa = PBXGroup;
 			children = (
 				180C85521FB780EB00C6D4E0 /* iOS11Showtime.app */,
+				181B1ED21FBC1255008EF900 /* MessagesFilter.appex */,
+				181B1EE41FBC245E008EF900 /* Core NFC.app */,
+				181B1EFE1FBC34A4008EF900 /* DeviceChecking.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +205,7 @@
 		180C85541FB780EB00C6D4E0 /* iOS11Showtime */ = {
 			isa = PBXGroup;
 			children = (
+				181B1EC71FBBEE4D008EF900 /* iOS11Showtime.entitlements */,
 				180C85EA1FB9826900C6D4E0 /* ARKit */,
 				180C85EC1FB9826900C6D4E0 /* Drag-n-Drop */,
 				180C85EB1FB9826900C6D4E0 /* IdentityLookup */,
@@ -211,6 +309,8 @@
 		180C85EB1FB9826900C6D4E0 /* IdentityLookup */ = {
 			isa = PBXGroup;
 			children = (
+				181B1EC21FBBEBEE008EF900 /* IdentityLookupViewController.swift */,
+				181B1EC41FBBEBFA008EF900 /* IdentityLookup.storyboard */,
 			);
 			path = IdentityLookup;
 			sourceTree = "<group>";
@@ -229,8 +329,49 @@
 		180C85ED1FB9826900C6D4E0 /* SpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				181B1EC81FBBEF79008EF900 /* Scene.sks */,
+				181B1ECA1FBBEF8A008EF900 /* SpriteKit.storyboard */,
+				181B1ECC1FBBEFA8008EF900 /* SpriteKitViewController.swift */,
 			);
 			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		181B1ED31FBC1255008EF900 /* MessagesFilter */ = {
+			isa = PBXGroup;
+			children = (
+				181B1EDE1FBC147F008EF900 /* MessagesFilter.entitlements */,
+				181B1ED41FBC1255008EF900 /* MessageFilterExtension.swift */,
+				181B1ED61FBC1255008EF900 /* Info.plist */,
+			);
+			path = MessagesFilter;
+			sourceTree = "<group>";
+		};
+		181B1EE51FBC245E008EF900 /* Core NFC */ = {
+			isa = PBXGroup;
+			children = (
+				181B1EF91FBC27A9008EF900 /* Core NFC.entitlements */,
+				181B1EE61FBC245E008EF900 /* AppDelegate.swift */,
+				181B1EE81FBC245E008EF900 /* CoreNFCViewController.swift */,
+				181B1EEA1FBC245E008EF900 /* CoreNFC.storyboard */,
+				181B1EED1FBC245E008EF900 /* Assets.xcassets */,
+				181B1EEF1FBC245E008EF900 /* LaunchScreen.storyboard */,
+				181B1EF21FBC245E008EF900 /* Info.plist */,
+				181B1EF61FBC2513008EF900 /* PayloadTableViewCell.swift */,
+			);
+			path = "Core NFC";
+			sourceTree = "<group>";
+		};
+		181B1EFF1FBC34A4008EF900 /* DeviceChecking */ = {
+			isa = PBXGroup;
+			children = (
+				181B1F001FBC34A4008EF900 /* AppDelegate.swift */,
+				181B1F101FBC34D1008EF900 /* DeviceCheckingViewController.swift */,
+				181B1F041FBC34A4008EF900 /* Main.storyboard */,
+				181B1F071FBC34A4008EF900 /* Assets.xcassets */,
+				181B1F091FBC34A4008EF900 /* LaunchScreen.storyboard */,
+				181B1F0C1FBC34A4008EF900 /* Info.plist */,
+			);
+			path = DeviceChecking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,14 +384,67 @@
 				180C854E1FB780EB00C6D4E0 /* Sources */,
 				180C854F1FB780EB00C6D4E0 /* Frameworks */,
 				180C85501FB780EB00C6D4E0 /* Resources */,
+				181B1EDD1FBC1255008EF900 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181B1ED81FBC1255008EF900 /* PBXTargetDependency */,
+			);
+			name = iOS11Showtime;
+			productName = iOS11Showtime;
+			productReference = 180C85521FB780EB00C6D4E0 /* iOS11Showtime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181B1ED11FBC1255008EF900 /* MessagesFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181B1EDA1FBC1255008EF900 /* Build configuration list for PBXNativeTarget "MessagesFilter" */;
+			buildPhases = (
+				181B1ECE1FBC1255008EF900 /* Sources */,
+				181B1ECF1FBC1255008EF900 /* Frameworks */,
+				181B1ED01FBC1255008EF900 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iOS11Showtime;
-			productName = iOS11Showtime;
-			productReference = 180C85521FB780EB00C6D4E0 /* iOS11Showtime.app */;
+			name = MessagesFilter;
+			productName = MessagesFilter;
+			productReference = 181B1ED21FBC1255008EF900 /* MessagesFilter.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		181B1EE31FBC245E008EF900 /* Core NFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181B1EF31FBC245E008EF900 /* Build configuration list for PBXNativeTarget "Core NFC" */;
+			buildPhases = (
+				181B1EE01FBC245E008EF900 /* Sources */,
+				181B1EE11FBC245E008EF900 /* Frameworks */,
+				181B1EE21FBC245E008EF900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core NFC";
+			productName = "Core NFC";
+			productReference = 181B1EE41FBC245E008EF900 /* Core NFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181B1EFD1FBC34A4008EF900 /* DeviceChecking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181B1F0D1FBC34A4008EF900 /* Build configuration list for PBXNativeTarget "DeviceChecking" */;
+			buildPhases = (
+				181B1EFA1FBC34A4008EF900 /* Sources */,
+				181B1EFB1FBC34A4008EF900 /* Frameworks */,
+				181B1EFC1FBC34A4008EF900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceChecking;
+			productName = DeviceChecking;
+			productReference = 181B1EFE1FBC34A4008EF900 /* DeviceChecking.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -264,6 +458,33 @@
 				ORGANIZATIONNAME = Xu;
 				TargetAttributes = {
 					180C85511FB780EB00C6D4E0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					181B1ED11FBC1255008EF900 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					181B1EE31FBC245E008EF900 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+						};
+					};
+					181B1EFD1FBC34A4008EF900 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -283,6 +504,9 @@
 			projectRoot = "";
 			targets = (
 				180C85511FB780EB00C6D4E0 /* iOS11Showtime */,
+				181B1ED11FBC1255008EF900 /* MessagesFilter */,
+				181B1EE31FBC245E008EF900 /* Core NFC */,
+				181B1EFD1FBC34A4008EF900 /* DeviceChecking */,
 			);
 		};
 /* End PBXProject section */
@@ -294,13 +518,43 @@
 			files = (
 				180C85601FB780EB00C6D4E0 /* LaunchScreen.storyboard in Resources */,
 				180C85EF1FB9827600C6D4E0 /* art.scnassets in Resources */,
+				181B1ECB1FBBEF8A008EF900 /* SpriteKit.storyboard in Resources */,
 				180C855D1FB780EB00C6D4E0 /* Assets.xcassets in Resources */,
 				180C85F71FB9A2C200C6D4E0 /* DragAndDrop.storyboard in Resources */,
 				180C85C81FB9390500C6D4E0 /* CoreML.storyboard in Resources */,
 				180C855B1FB780EB00C6D4E0 /* Main.storyboard in Resources */,
+				181B1EC51FBBEBFA008EF900 /* IdentityLookup.storyboard in Resources */,
+				181B1EC91FBBEF79008EF900 /* Scene.sks in Resources */,
 				180C85D71FB96DED00C6D4E0 /* Vision.storyboard in Resources */,
 				181B1EC11FBB17BE008EF900 /* MapKit.storyboard in Resources */,
 				180C85F31FB99CD300C6D4E0 /* ARKit.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B1ED01FBC1255008EF900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B1EE21FBC245E008EF900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B1EF11FBC245E008EF900 /* LaunchScreen.storyboard in Resources */,
+				181B1EEE1FBC245E008EF900 /* Assets.xcassets in Resources */,
+				181B1EEC1FBC245E008EF900 /* CoreNFC.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B1EFC1FBC34A4008EF900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B1F0B1FBC34A4008EF900 /* LaunchScreen.storyboard in Resources */,
+				181B1F081FBC34A4008EF900 /* Assets.xcassets in Resources */,
+				181B1F061FBC34A4008EF900 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,9 +578,11 @@
 				180C85581FB780EB00C6D4E0 /* ViewController.swift in Sources */,
 				181B1EBD1FBB173F008EF900 /* EmojiAnnotation.swift in Sources */,
 				180C85F91FB9A2F200C6D4E0 /* DragAndDropViewController.swift in Sources */,
+				181B1ECD1FBBEFA8008EF900 /* SpriteKitViewController.swift in Sources */,
 				180C85CC1FB93B1500C6D4E0 /* UIImage+CVPixelBuffer.swift in Sources */,
 				180C85E31FB973D600C6D4E0 /* LandmarksService.swift in Sources */,
 				181B1EBF1FBB175B008EF900 /* MarkerAnnotationView.swift in Sources */,
+				181B1EC31FBBEBEE008EF900 /* IdentityLookupViewController.swift in Sources */,
 				180C85CA1FB9392F00C6D4E0 /* CoreMLViewController.swift in Sources */,
 				180C85561FB780EB00C6D4E0 /* AppDelegate.swift in Sources */,
 				180C85E11FB973A000C6D4E0 /* Fision+Extensions.swift in Sources */,
@@ -337,7 +593,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		181B1ECE1FBC1255008EF900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B1EDF1FBC16BE008EF900 /* UserDefaults+Storage.swift in Sources */,
+				181B1ED51FBC1255008EF900 /* MessageFilterExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B1EE01FBC245E008EF900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B1EF81FBC25A2008EF900 /* UIViewController+Alert.swift in Sources */,
+				181B1EE91FBC245E008EF900 /* CoreNFCViewController.swift in Sources */,
+				181B1EF71FBC2513008EF900 /* PayloadTableViewCell.swift in Sources */,
+				181B1EE71FBC245E008EF900 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B1EFA1FBC34A4008EF900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B1F011FBC34A4008EF900 /* AppDelegate.swift in Sources */,
+				181B1F111FBC34D1008EF900 /* DeviceCheckingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181B1ED81FBC1255008EF900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181B1ED11FBC1255008EF900 /* MessagesFilter */;
+			targetProxy = 181B1ED71FBC1255008EF900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		180C85591FB780EB00C6D4E0 /* Main.storyboard */ = {
@@ -352,6 +645,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				180C855F1FB780EB00C6D4E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		181B1EEA1FBC245E008EF900 /* CoreNFC.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B1EEB1FBC245E008EF900 /* Base */,
+			);
+			name = CoreNFC.storyboard;
+			sourceTree = "<group>";
+		};
+		181B1EEF1FBC245E008EF900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B1EF01FBC245E008EF900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		181B1F041FBC34A4008EF900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B1F051FBC34A4008EF900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181B1F091FBC34A4008EF900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B1F0A1FBC34A4008EF900 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -469,7 +794,9 @@
 		180C85651FB780EB00C6D4E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOS11Showtime/iOS11Showtime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7C7UL4AYA3;
 				INFOPLIST_FILE = iOS11Showtime/Info.plist;
@@ -485,13 +812,113 @@
 		180C85661FB780EB00C6D4E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOS11Showtime/iOS11Showtime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7C7UL4AYA3;
 				INFOPLIST_FILE = iOS11Showtime/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.penn.iOS11Showtime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		181B1EDB1FBC1255008EF900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MessagesFilter/MessagesFilter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C7UL4AYA3;
+				INFOPLIST_FILE = MessagesFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penn.iOS11Showtime.MessagesFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181B1EDC1FBC1255008EF900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MessagesFilter/MessagesFilter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C7UL4AYA3;
+				INFOPLIST_FILE = MessagesFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.penn.iOS11Showtime.MessagesFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		181B1EF41FBC245E008EF900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Core NFC/Core NFC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C7UL4AYA3;
+				INFOPLIST_FILE = "Core NFC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "penn.Core-NFC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181B1EF51FBC245E008EF900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Core NFC/Core NFC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C7UL4AYA3;
+				INFOPLIST_FILE = "Core NFC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "penn.Core-NFC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		181B1F0E1FBC34A4008EF900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C7UL4AYA3;
+				INFOPLIST_FILE = DeviceChecking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = penn.DeviceChecking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181B1F0F1FBC34A4008EF900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7C7UL4AYA3;
+				INFOPLIST_FILE = DeviceChecking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = penn.DeviceChecking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,6 +942,33 @@
 			buildConfigurations = (
 				180C85651FB780EB00C6D4E0 /* Debug */,
 				180C85661FB780EB00C6D4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181B1EDA1FBC1255008EF900 /* Build configuration list for PBXNativeTarget "MessagesFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B1EDB1FBC1255008EF900 /* Debug */,
+				181B1EDC1FBC1255008EF900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181B1EF31FBC245E008EF900 /* Build configuration list for PBXNativeTarget "Core NFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B1EF41FBC245E008EF900 /* Debug */,
+				181B1EF51FBC245E008EF900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181B1F0D1FBC34A4008EF900 /* Build configuration list for PBXNativeTarget "DeviceChecking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B1F0E1FBC34A4008EF900 /* Debug */,
+				181B1F0F1FBC34A4008EF900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

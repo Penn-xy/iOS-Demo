@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GxI-lM-Zf2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sprite Kit View Controller-->
+        <scene sceneID="e7W-SA-JwD">
+            <objects>
+                <viewController id="GxI-lM-Zf2" customClass="SpriteKitViewController" customModule="iOS11Showtime" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g6a-nF-Rf8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <skView contentMode="scaleToFill" sceneName="Scene.sks" translatesAutoresizingMaskIntoConstraints="NO" id="dG8-ft-9TM">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </skView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GU4-s9-sVs" firstAttribute="bottom" secondItem="dG8-ft-9TM" secondAttribute="bottom" id="2o9-mm-p3K"/>
+                            <constraint firstItem="dG8-ft-9TM" firstAttribute="top" secondItem="GU4-s9-sVs" secondAttribute="top" id="iLV-Sp-ZqP"/>
+                            <constraint firstItem="GU4-s9-sVs" firstAttribute="trailing" secondItem="dG8-ft-9TM" secondAttribute="trailing" id="lHu-3X-Gui"/>
+                            <constraint firstItem="dG8-ft-9TM" firstAttribute="leading" secondItem="GU4-s9-sVs" secondAttribute="leading" id="urv-xc-Re8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GU4-s9-sVs"/>
+                    </view>
+                    <connections>
+                        <outlet property="skView" destination="dG8-ft-9TM" id="ZN3-u5-qjF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v0a-cg-oBd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95" y="163"/>
+        </scene>
+    </scenes>
+</document>
