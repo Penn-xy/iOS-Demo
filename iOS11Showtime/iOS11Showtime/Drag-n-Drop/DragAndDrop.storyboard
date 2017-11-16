@@ -31,7 +31,15 @@
                             <outlet property="delegate" destination="7hD-wm-DVl" id="Qyg-4V-f4T"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="👆Drag And Drop" id="TQM-v3-C78"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="👆Drag And Drop" id="TQM-v3-C78">
+                        <barButtonItem key="rightBarButtonItem" title="➡️" id="6fq-9G-oVn">
+                            <connections>
+                                <action selector="barButtonItemAction:" destination="7hD-wm-DVl" id="q18-Ok-FOw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ah-WX-aFX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

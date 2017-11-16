@@ -10,7 +10,7 @@ import UIKit
 import SpriteKit
 
 class SKTextNode: SKLabelNode {
-    let texts = ["iOS11", "by", "examples"]
+    let texts = ["iOS11", "Show", "time"]
     
     override init() {
         super.init()
